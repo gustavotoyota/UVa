@@ -13,7 +13,7 @@
 using namespace std;
 
 vector<int> sqrs(102);
-vector<int> min_sqrs(MAX + 1, 0x7fffffff);
+vector<int> min_sqrs(MAX + 1, INF);
 int num_tests, value;
 
 int main() {
