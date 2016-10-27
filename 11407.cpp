@@ -12,29 +12,29 @@
 
 using namespace std;
 
-vector<int> quadrados(102);
-vector<int> min_somas(MAX + 1, 0x7fffffff);
-int num_testes, valor;
+vector<int> sqrs(102);
+vector<int> min_sqrs(MAX + 1, 0x7fffffff);
+int num_tests, value;
 
 int main() {
-	for (uint i = 0; i < quadrados.size(); ++i)
-		quadrados[i] = i * i;
+    for (uint i = 0; i < sqrs.size(); ++i)
+        sqrs[i] = i * i;
 
-	for (int i = 0; quadrados[i] <= MAX; ++i)
-		min_somas[quadrados[i]] = 1;
+    for (int i = 0; sqrs[i] <= MAX; ++i)
+        min_sqrs[sqrs[i]] = 1;
 
-	for (int i = 2; i <= MAX; ++i) {
-		if (min_somas[i] > 1)
-			continue;
-		for (int j = 1; quadrados[j] < i; ++j)
-			min_somas[i] = min(min_somas[i], min_somas[i - quadrados[j]] + 1);
-	}
+    for (int i = 2; i <= MAX; ++i) {
+        if (min_sqrs[i] > 1)
+            continue;
+        for (int j = 1; sqrs[j] < i; ++j)
+            min_sqrs[i] = min(min_sqrs[i], min_sqrs[i - sqrs[j]] + 1);
+    }
 
-	cin >> num_testes;
-	while (num_testes--) {
-		cin >> valor;
-		cout << min_somas[valor] << '\n';
-	}
+    cin >> num_tests;
+    while (num_tests--) {
+        cin >> value;
+        cout << min_sqrs[value] << '\n';
+    }
 
-	return 0;
+    return 0;
 }
