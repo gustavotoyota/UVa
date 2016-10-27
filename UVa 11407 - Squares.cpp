@@ -1,5 +1,6 @@
 /* ----------------------------- *
-    Gustavo Toyota - 27/10/2016 
+    Gustavo Toyota - 27/10/2016
+    UVa 11407 - Squares
  * ----------------------------- */
 
 #include <iostream>
