@@ -1,3 +1,3 @@
-# UVa
+# Online Judge Problem Solutions
 
-Here are my solutions to problems from UVa Online Judge.
+Here are my solutions to problems from online judges.
