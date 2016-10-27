@@ -1,4 +1,6 @@
-/* Gustavo Takachi Toyota - 27/10/2016 */
+/* ----------------------------- *
+    Gustavo Toyota - 27/10/2016 
+ * ----------------------------- */
 
 #include <iostream>
 #include <vector>
