@@ -1,7 +1,7 @@
-/* -------------------------------- *
-    Gustavo Toyota - 27/10/2016
-    UVa 10910 - Marks Distribution
- * -------------------------------- */
+/*--------------------------------*
+ | Gustavo Toyota - 27/10/2016    |
+ | UVa 10910 - Marks Distribution |
+ *--------------------------------*/
 
 #include <iostream>
 #include <map>
