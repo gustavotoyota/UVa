@@ -1,3 +1,3 @@
-# Online Judge Problem Solutions
+# Competitive Programming Problem Solutions
 
-Here are my solutions to problems from online judges.
+Here are my solutions to competitive programming problems.
